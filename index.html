@@ -1,96 +1,150 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html>
 	<head>
 		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<link rel="stylesheet" href="css/style.css">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<title>Lesson 3</title>
-		<style>
-			p{
-				color: green;
-			}
-		</style>
+		<title>Верстка «NEW_PROJECT_NAME»</title>
 	</head>
 	<body>
-		<!-- (1) Инлайновые стили (атрибут style) Наивысший приоритет -->
-		<!-- (2) Обращение из HTML (тег style) Наименьший приоритет -->
-		<!-- (3) Подключение внешнего файла (тег link + файл *.css) -->
-
-		<!-- Пишем имена классов:
-			Латиница!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-			Без пробелов
-			Одним словом
-			Нижний регистр
-		-->
-		<header>
-			<h1>Я заголовок</h1>
-			<nav>
-				<ul>
-					<li>
-						<a href="">Я ссылка</a>
-					</li>
-					<li>
-						<a href="">Я ссылка</a>
-					</li>
-					<li>
-						<a href="">Я ссылка</a>
-					</li>
-					<li>
-						<a href="">Я ссылка</a>
-					</li>
-					<li>
-						<a href="">Я ссылка</a>
-					</li>
-				</ul>
-			</nav>
-		</header>
-		<main>
-			<div>
-				<p id="menu">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				</p>
-				<!-- style="color:red;" -->
-				<p id="main-text" class="text">
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				</p>
-				<p>
-					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				</p>
+		<div class="rootpage">
+			<h1>Верстка «NEW_PROJECT_NAME»</h1>
+			<div class="rootpage__info">
+				Особенности проекта
 			</div>
-			<div class="content">
-				<img width="200" src="img/01.png" alt="Здание">
-				<p class="content__item">
-					Я контент. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci nulla tempora repellendus totam amet alias assumenda quia sapiente, labore pariatur quae officia id, architecto dolores minima excepturi explicabo accusantium impedit!
-				</p>
-				<span class="content__text">
-					Я спан первого уровня. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quae quasi magni soluta perspiciatis repellendus qui id dolorum, magnam rerum tempore doloremque harum eaque corrupti! Fugit corrupti repellat deserunt totam.
-				</span>
-				<span class="content__text">
-					Я спан первого уровня. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quae quasi magni soluta perspiciatis repellendus qui id dolorum, magnam rerum tempore doloremque harum eaque corrupti! Fugit corrupti repellat deserunt totam.
-				</span>
-				<span class="content__text">
-					Я спан первого уровня. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quae quasi magni soluta perspiciatis repellendus qui id dolorum, magnam rerum tempore doloremque harum eaque corrupti! Fugit corrupti repellat deserunt totam.
-				</span>
+			<h2>Готовые страницы:</h2>
+			<ol class="rootpage__list">
+				<li><a target="_blank" href="home.html">Главная</a></li>
+			</ol>
+			<h2>Попапы:</h2>
+			<ol class="rootpage__list">
+				<li><a target="_blank" href="home.html#"></a></li>
+			</ol>
+			<div class="rootpage__tnx">
+				<h2>Спасибо за заказ!</h2>
+				<p>Буду рад (а) хорошему отзыву.</p>
+				<p>Обращайтесь еще!</p>
 			</div>
-		</main>
-		<footer>
-			<span class="text blue-text">Я подвал</span>
-			<p class="text paragraph">
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-				Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim quod similique doloremque quaerat ab totam? Quae pariatur repellat suscipit cumque vel repellendus consequatur voluptas veniam, ut voluptatem facere amet asperiores.
-			</p>
-		</footer>
+			<div class="rootpage__contacts">
+				<h2>Мои контакты:</h2>
+				<p>Почта: <a href="mailto:email@gmail.com">email@gmail.com</a></p>
+				<p>Телефон: <a href="tel:8800800800">8 800 800 800</a></p>
+				<p>Соц. сеть: <a href="">ссылка на соц. сеть</a></p>
+			</div>
+		</div>
 	</body>
+	<style>
+		@charset "UTF-8";
+		@import url("https://fonts.googleapis.com/css?family=Montserrat:regular,700&display=swap");
+		* ,*::before, *::after {
+			padding: 0px;
+			margin: 0px;
+			border: 0px;
+			box-sizing: border-box; 
+		}
+		html, body {
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			min-width: 320px;
+			width: 100%;
+			color: #fff;
+			background-color: #5e5373;
+		}
+		body {
+			font-family: Montserrat;
+			font-size: 100%;
+			line-height: 1;
+			font-size: 1rem;
+		}
+		a {
+			text-decoration: underline;
+			color: #ebe691
+		}
+		a:visited {
+			text-decoration: underline;
+			color: #aaa768;
+		}
+			a:hover {
+			text-decoration: none;
+		}
+		ul li {
+			list-style: none;
+		}
+		img {
+			vertical-align: top;
+		}
+		.wrapper {
+			width: 100%;
+			min-height: 100%;
+			overflow: hidden;
+		}
+		.rootpage{
+			padding: 30px;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		@media (max-width: 767px) {
+			.rootpage{
+				padding:30px 15px;
+			}
+		}
+		h1 {
+			color: #ebe691;
+			font-size: 2.5rem;
+			margin: 0px 0px 1.25rem 0px;
+		}
+		@media (max-width: 767px) {
+			h1 {
+				font-size: 1.85rem;
+				margin: 0px 0px 1.25rem 0px;
+			}
+		}
+		h2 {
+			color: #ebe691;
+			font-size: 1.25rem;
+			margin: 0px 0px 1rem 0px;
+		}
+		@media (max-width: 767px) {
+			 h2 {
+				font-size: 1.125rem;
+				margin: 0px 0px 1rem 0px;
+			}
+		}
+		.rootpage__info{
+			line-height: 140%;
+			margin: 0px 0px 1.5rem 0px;
+		}
+
+		.rootpage__list{
+			margin: 0px 0px 2.25rem 1.25rem;
+		}
+		.rootpage__list li:not(:last-child){
+			margin: 0px 0px 15px 0px;
+		}
+		.rootpage__contacts,
+		.rootpage__tnx{
+			border-radius: 200px;
+			padding: 20px 65px;
+			line-height: 140%;
+		}
+		@media (max-width: 767px){
+		.rootpage__contacts,
+		.rootpage__tnx{
+			border-radius:40px;
+			padding: 20px;
+		}
+		}
+		.rootpage__contacts{
+			background: #32b5a4;
+			
+		}
+		.rootpage__contacts a{
+			color: #ebe691;
+		}
+		.rootpage__tnx{
+			background: #c22d63;
+			margin: 0px 0px 1rem 0px;
+		}
+	</style>
 </html>
